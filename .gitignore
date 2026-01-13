@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ejemplos de landing pages (no publicar)
+config/examples/
+
+# Base de datos local (si la usaste)
+prisma/*.db
+prisma/*.db-journal
+/lib/generated/prisma
+```

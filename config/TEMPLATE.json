@@ -1,0 +1,174 @@
+{
+  "_INSTRUCCIONES": "Este es el template base. Copia y renombra a: cliente-nombre.json",
+  "_EJEMPLO": "cliente-fitpro.json, cliente-abogado.json, etc.",
+  
+  "metadata": {
+    "title": "Título SEO - Máximo 60 caracteres",
+    "description": "Descripción para Google - 150-160 caracteres",
+    "keywords": ["palabra1", "palabra2", "palabra3"]
+  },
+
+  "whatsapp": {
+    "number": "+5491123456789",
+    "message": "Hola! Quiero más información",
+    "buttonText": "Contactar por WhatsApp"
+  },
+
+  "hero": {
+    "title": "Título Principal Llamativo",
+    "subtitle": "Subtítulo que explica la propuesta de valor en 1-2 líneas",
+    "ctaText": "Empezar Ahora",
+    "backgroundImage": "https://images.unsplash.com/photo-XXXXXXX?w=1920&q=80",
+    "showScrollIndicator": false,
+    "urgency": {
+      "enabled": false,
+      "type": "badge",
+      "countdown": {
+        "targetDate": "2024-12-31T23:59:59",
+        "text": "⚡ La oferta termina en:"
+      },
+      "badge": {
+        "text": "🔥 Solo 5 cupos disponibles",
+        "icon": "fire"
+      }
+    }
+  },
+
+  "features": {
+    "title": "¿Por Qué Elegirnos?",
+    "items": [
+      {
+        "icon": "FaStar",
+        "title": "Característica 1",
+        "description": "Descripción breve de la característica"
+      },
+      {
+        "icon": "FaRocket",
+        "title": "Característica 2",
+        "description": "Descripción breve de la característica"
+      },
+      {
+        "icon": "FaHeart",
+        "title": "Característica 3",
+        "description": "Descripción breve de la característica"
+      },
+      {
+        "icon": "FaCheck",
+        "title": "Característica 4",
+        "description": "Descripción breve de la característica"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "items": [
+      {
+        "name": "Nombre del Cliente",
+        "role": "Cargo o Resultado Obtenido",
+        "content": "El testimonio completo del cliente. Debe ser específico y creíble.",
+        "rating": 5
+      },
+      {
+        "name": "Otro Cliente",
+        "role": "Su resultado",
+        "content": "Otro testimonio real y específico.",
+        "rating": 5
+      }
+    ]
+  },
+
+  "pricing": {
+    "title": "Nuestros Planes",
+    "plans": [
+      {
+        "name": "Básico",
+        "price": "99",
+        "currency": "$",
+        "period": "/mes",
+        "features": [
+          "Característica 1",
+          "Característica 2",
+          "Característica 3"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "199",
+        "currency": "$",
+        "period": "/mes",
+        "highlighted": true,
+        "features": [
+          "Todo del plan Básico",
+          "Característica Premium 1",
+          "Característica Premium 2",
+          "Característica Premium 3"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "currency": "$",
+        "period": "",
+        "features": [
+          "Todo del plan Pro",
+          "Soporte prioritario",
+          "Personalización completa",
+          "Account Manager dedicado"
+        ]
+      }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Pregunta 1?",
+        "answer": "Respuesta clara y concisa a la pregunta 1."
+      },
+      {
+        "question": "¿Pregunta 2?",
+        "answer": "Respuesta clara y concisa a la pregunta 2."
+      },
+      {
+        "question": "¿Pregunta 3?",
+        "answer": "Respuesta clara y concisa a la pregunta 3."
+      }
+    ]
+  },
+
+  "footer": {
+    "companyName": "Nombre de la Empresa",
+    "year": 2024
+  },
+
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "secondaryColor": "#1e40af"
+  },
+
+  "settings": {
+    "navbar": {
+      "enabled": true,
+      "transparent": true
+    },
+    "whatsappButton": {
+      "enabled": true,
+      "position": "bottom-right"
+    },
+    "stickyBar": {
+      "enabled": false,
+      "text": "🎉 Texto de la barra sticky",
+      "showAfterScroll": 300
+    },
+    "sections": {
+      "hero": true,
+      "features": true,
+      "testimonials": true,
+      "pricing": true,
+      "faq": true,
+      "footer": true
+    }
+  }
+}

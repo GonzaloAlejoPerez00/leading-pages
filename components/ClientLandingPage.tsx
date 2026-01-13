@@ -1,0 +1,110 @@
+'use client'
+
+import { LandingPageConfig } from '@/types/landing-config'
+import Navbar from '@/components/common/Navbar'
+import WhatsAppButton from '@/components/common/WhatsAppButton'
+import StickyBar from '@/components/common/StickyBar'
+import HeroSection from '@/components/sections/HeroSection'
+import FeaturesSection from '@/components/sections/FeaturesSection'
+import TestimonialsSection from '@/components/sections/TestimonialsSection'
+import PricingSection from '@/components/sections/PricingSection'
+import FAQSection from '@/components/sections/FAQSection'
+import FooterSection from '@/components/sections/FooterSection'
+
+interface ClientLandingPageProps {
+  config: LandingPageConfig
+}
+
+export default function ClientLandingPage({ config }: ClientLandingPageProps) {
+  
+  const handleWhatsAppClick = () => {
+    const encodedMessage = encodeURIComponent(config.whatsapp.message)
+    const whatsappUrl = `https://wa.me/${config.whatsapp.number.replace(/\+/g, '')}?text=${encodedMessage}`
+    window.open(whatsappUrl, '_blank')
+  }
+
+  return (
+    <>
+      {/* Navbar - Condicional */}
+      {config.settings.navbar.enabled && (
+        <Navbar
+          companyName={config.footer.companyName}
+          ctaText={config.whatsapp.buttonText}
+          onCtaClick={handleWhatsAppClick}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Hero Section - Condicional */}
+      {config.settings.sections.hero && (
+        <HeroSection
+          config={config.hero}
+          whatsapp={config.whatsapp}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Features Section - Condicional */}
+      {config.settings.sections.features && (
+        <FeaturesSection
+          config={config.features}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Testimonials Section - Condicional */}
+      {config.settings.sections.testimonials && (
+        <TestimonialsSection
+          config={config.testimonials}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Pricing Section - Condicional */}
+      {config.settings.sections.pricing && config.pricing && (
+        <PricingSection
+          config={config.pricing}
+          whatsapp={config.whatsapp}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* FAQ Section - Condicional */}
+      {config.settings.sections.faq && (
+        <FAQSection
+          config={config.faq}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Footer - Condicional */}
+      {config.settings.sections.footer && (
+        <FooterSection
+          config={config.footer}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Botón Flotante de WhatsApp - Condicional */}
+      {config.settings.whatsappButton.enabled && (
+        <WhatsAppButton
+          phoneNumber={config.whatsapp.number}
+          message={config.whatsapp.message}
+          buttonText={config.whatsapp.buttonText}
+          position={config.settings.whatsappButton.position}
+        />
+      )}
+
+{/* Sticky Bar - Condicional */}
+      {config.settings.stickyBar.enabled && (
+        <StickyBar
+          text={config.settings.stickyBar.text} 
+          buttonText={config.whatsapp.buttonText}
+          onButtonClick={handleWhatsAppClick}
+          primaryColor={config.theme.primaryColor}
+          showAfterScroll={config.settings.stickyBar.showAfterScroll}
+        />
+      )}
+    </>
+  )
+}

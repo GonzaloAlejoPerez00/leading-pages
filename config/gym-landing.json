@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "title": "FitPro Gym - Transformá Tu Cuerpo",
+    "description": "El mejor gimnasio de Buenos Aires. Resultados garantizados en 90 días.",
+    "keywords": ["gimnasio", "fitness", "musculacion", "crossfit"]
+  },
+
+  "whatsapp": {
+    "number": "+5491123456789",
+    "message": "Hola! Quiero info sobre los planes de FitPro Gym",
+    "buttonText": "Consultar Planes"
+  },
+
+  "hero": {
+    "title": "Transformá Tu Cuerpo en 90 Días",
+    "subtitle": "Entrenamiento personalizado + Nutrición + Acompañamiento 24/7. Primera clase GRATIS.",
+    "ctaText": "Empezar Ahora",
+    "backgroundImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80",
+    "urgency": {
+      "enabled": true,
+      "type": "both",
+      "countdown": {
+        "targetDate": "2024-12-31T23:59:59",
+        "text": "⚡ Oferta de Lanzamiento Termina En:"
+      },
+      "badge": {
+        "text": "Solo quedan 3 cupos disponibles",
+        "icon": "fire"
+      }
+    }
+  },
+
+  "features": {
+    "title": "¿Por Qué Elegir FitPro?",
+    "items": [
+      {
+        "icon": "FaDumbbell",
+        "title": "Equipamiento Premium",
+        "description": "Máquinas de última generación importadas de USA"
+      },
+      {
+        "icon": "FaUsers",
+        "title": "Entrenadores Certificados",
+        "description": "Staff con más de 10 años de experiencia"
+      },
+      {
+        "icon": "FaClock",
+        "title": "Horarios Flexibles",
+        "description": "Abierto de 6am a 11pm, 7 días a la semana"
+      },
+      {
+        "icon": "FaAppleAlt",
+        "title": "Plan Nutricional",
+        "description": "Nutricionista incluido en todos los planes"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Alumnos",
+    "items": [
+      {
+        "name": "Martín González",
+        "role": "Perdió 15kg en 4 meses",
+        "content": "Nunca pensé que podría lograr este cambio. El acompañamiento es increíble, los profes te motivan todos los días.",
+        "rating": 5
+      },
+      {
+        "name": "Laura Fernández",
+        "role": "Aumentó 8kg de músculo",
+        "content": "El plan de nutrición y entrenamiento personalizado fue clave. En 6 meses logré el cuerpo que siempre quise.",
+        "rating": 5
+      }
+    ]
+  },
+
+  "pricing": {
+    "title": "Planes para Todos",
+    "plans": [
+      {
+        "name": "Básico",
+        "price": "15.000",
+        "currency": "$",
+        "period": "/mes",
+        "features": [
+          "Acceso zona musculación",
+          "Acceso zona cardio",
+          "Locker incluido"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "25.000",
+        "currency": "$",
+        "period": "/mes",
+        "highlighted": true,
+        "features": [
+          "Todo del plan Básico",
+          "Clases grupales ilimitadas",
+          "Plan nutricional",
+          "Entrenador personal 2x/mes"
+        ]
+      },
+      {
+        "name": "Elite",
+        "price": "45.000",
+        "currency": "$",
+        "period": "/mes",
+        "features": [
+          "Todo del plan Pro",
+          "Entrenamiento personalizado",
+          "Acceso 24/7",
+          "Suplementación incluida"
+        ]
+      }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Necesito experiencia previa?",
+        "answer": "No! Tenemos programas para todos los niveles. Los profes te van a guiar desde cero."
+      },
+      {
+        "question": "¿Puedo probar antes de anotarme?",
+        "answer": "Sí! La primera clase es 100% GRATIS. Vení a conocer las instalaciones."
+      },
+      {
+        "question": "¿Qué incluye el plan nutricional?",
+        "answer": "Entrevista inicial, plan de comidas personalizado y seguimiento mensual con nuestra nutricionista."
+      }
+    ]
+  },
+
+  "footer": {
+    "companyName": "FitPro Gym",
+    "year": 2024
+  },
+
+  "theme": {
+    "primaryColor": "#ef4444",
+    "secondaryColor": "#1f2937"
+  },
+
+  "settings": {
+    "navbar": {
+      "enabled": true,
+      "transparent": true
+    },
+    "whatsappButton": {
+      "enabled": false,
+      "position": "bottom-right"
+    },
+    "stickyBar": {
+      "enabled": true,
+      "text": "🔥 Primera Clase GRATIS - Cupos Limitados",
+      "showAfterScroll": 300
+    },
+    "sections": {
+      "hero": true,
+      "features": true,
+      "testimonials": true,
+      "pricing": true,
+      "faq": true,
+      "footer": true
+    }
+  }
+}
