@@ -20,7 +20,7 @@
       "enabled": true,
       "type": "both",
       "countdown": {
-        "targetDate": "2024-12-31T23:59:59",
+        "targetDate": "2026-12-31T23:59:59",
         "text": "⚡ Oferta de Lanzamiento Termina En:"
       },
       "badge": {
@@ -136,7 +136,7 @@
 
   "footer": {
     "companyName": "FitPro Gym",
-    "year": 2024
+    "year": 2026
   },
 
   "theme": {
@@ -150,13 +150,16 @@
       "transparent": true
     },
     "whatsappButton": {
-      "enabled": false,
+      "enabled": true,
       "position": "bottom-right"
     },
     "stickyBar": {
       "enabled": true,
       "text": "🔥 Primera Clase GRATIS - Cupos Limitados",
       "showAfterScroll": 300
+    },
+    "layout": {
+      "featuresTestimonialsGrid": false
     },
     "sections": {
       "hero": true,

@@ -36,7 +36,7 @@ export default function PricingSection({ config, whatsapp, primaryColor }: Prici
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             {config.title}
           </h2>
         </motion.div>
@@ -68,7 +68,7 @@ export default function PricingSection({ config, whatsapp, primaryColor }: Prici
                 )}
 
                 {/* Nombre del Plan */}
-                <h3 className="text-2xl font-bold text-center mb-4">
+                <h3 className="text-2xl font-bold text-center mb-4 text-gray-900">
                   {plan.name}
                 </h3>
 
@@ -86,10 +86,10 @@ export default function PricingSection({ config, whatsapp, primaryColor }: Prici
                 <ul className="space-y-3 mb-8">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-2">
-                    <FaCheck 
-                    className="mt-1 shrink-0" 
-                    style={{ color: primaryColor }}
-                    />
+                      <FaCheck 
+                        className="mt-1 shrink-0" 
+                        style={{ color: primaryColor }}
+                      />
                       <span className="text-gray-700">{feature}</span>
                     </li>
                   ))}

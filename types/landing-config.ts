@@ -108,6 +108,9 @@ export interface LandingPageConfig {
       text: string 
       showAfterScroll: number
     }
+    layout?: {
+    featuresTestimonialsGrid: boolean 
+    }
     sections: {
       hero: boolean
       features: boolean

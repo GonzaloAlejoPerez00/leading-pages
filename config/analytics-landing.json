@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "DataFlow Analytics - Transformá Datos en Decisiones",
+    "description": "Agencia especializada en analytics, dashboards y data-driven strategies. Convertimos datos en insights accionables.",
+    "keywords": ["analytics", "data", "dashboards", "business intelligence", "data science"]
+  },
+
+  "whatsapp": {
+    "number": "+5491187654321",
+    "message": "Hola! Quiero una consultoría de analytics gratuita",
+    "buttonText": "Consultoría Gratis"
+  },
+
+  "hero": {
+    "title": "Dejá de Adivinar. Empezá a Saber.",
+    "subtitle": "Convertimos tus datos en estrategias que multiplican resultados. Dashboards, análisis predictivo y decisiones basadas en datos reales.",
+    "ctaText": "Ver Casos de Éxito",
+    "backgroundImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80",
+    "showScrollIndicator": false,
+    "urgency": {
+      "enabled": false,
+      "type": "badge",
+      "badge": {
+        "text": "🔥 Auditoría GRATIS - Solo este mes",
+        "icon": "fire"
+      }
+    }
+  },
+
+  "features": {
+    "title": "Cómo Trabajamos",
+    "items": [
+      {
+        "icon": "FaChartBar",
+        "title": "Dashboards Personalizados",
+        "description": "Power BI, Tableau, Looker. Visualizá toda tu operación en tiempo real."
+      },
+      {
+        "icon": "FaBrain",
+        "title": "Análisis Predictivo",
+        "description": "Machine Learning para anticipar tendencias y comportamiento de clientes."
+      },
+      {
+        "icon": "FaDatabase",
+        "title": "Arquitectura de Datos",
+        "description": "Integramos todas tus fuentes: CRM, ERP, Google Analytics, redes sociales."
+      },
+      {
+        "icon": "FaRocket",
+        "title": "Implementación Rápida",
+        "description": "Primeros insights en 2 semanas. ROI medible desde el mes 1."
+      },
+      {
+        "icon": "FaUsers",
+        "title": "Capacitación Incluida",
+        "description": "Tu equipo aprende a interpretar datos y tomar decisiones estratégicas."
+      },
+      {
+        "icon": "FaShieldAlt",
+        "title": "Seguridad Garantizada",
+        "description": "Cumplimiento GDPR. Tus datos protegidos con los más altos estándares."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Resultados Comprobables",
+    "items": [
+      {
+        "name": "Santiago Morales",
+        "role": "CEO, eCommerce FashionHub",
+        "content": "Redujimos el costo de adquisición 40% optimizando campañas con sus dashboards. Ahora sabemos exactamente qué funciona y qué no.",
+        "rating": 5
+      },
+      {
+        "name": "Laura Giménez",
+        "role": "CMO, FinTech Soluciones",
+        "content": "El análisis predictivo nos permitió identificar clientes en riesgo de churn. Retención aumentó 28% en 3 meses.",
+        "rating": 5
+      },
+      {
+        "name": "Martín Aguirre",
+        "role": "Director, Cadena de Retail",
+        "content": "Antes tomábamos decisiones con reportes de hace 2 semanas. Ahora todo es real-time. Game changer total.",
+        "rating": 5
+      },
+      {
+        "name": "Camila Rojas",
+        "role": "Fundadora, Startup Saludable",
+        "content": "La consultoría estratégica nos ayudó a definir KPIs claros. En 6 meses triplicamos nuestra tasa de conversión.",
+        "rating": 5
+      },
+      {
+        "name": "Diego Fernández",
+        "role": "Gerente de Operaciones, Logística Express",
+        "content": "Integrar todas nuestras fuentes de datos fue clave. Ahora tenemos una visión 360° y tomamos decisiones informadas.",
+        "rating": 5
+      },
+      {
+        "name": "Valentina Suárez",
+        "role": "Analista Senior, Agencia Digital Creativa",
+        "content": "El equipo de DataFlow nos capacitó para interpretar datos. Hoy somos más autónomos y estratégicos en nuestras campañas.",
+        "rating": 5
+      }
+    ]
+  },
+
+  "pricing": {
+    "title": "Inversión & Retorno",
+    "plans": [
+      {
+        "name": "Analytics Starter",
+        "price": "180.000",
+        "currency": "$",
+        "period": "/mes",
+        "features": [
+          "1 Dashboard personalizado",
+          "Hasta 3 fuentes de datos",
+          "Reportes semanales",
+          "Soporte por email"
+        ]
+      },
+      {
+        "name": "Growth Analytics",
+        "price": "350.000",
+        "currency": "$",
+        "period": "/mes",
+        "highlighted": true,
+        "features": [
+          "3 Dashboards personalizados",
+          "Integración ilimitada",
+          "Análisis predictivo básico",
+          "Consultoría estratégica mensual",
+          "Soporte prioritario",
+          "Capacitación del equipo"
+        ]
+      },
+      {
+        "name": "Enterprise Data",
+        "price": "Custom",
+        "currency": "$",
+        "period": "",
+        "features": [
+          "Todo el plan Growth",
+          "Machine Learning avanzado",
+          "Data Architect dedicado",
+          "Infraestructura cloud",
+          "SLA 99.9%",
+          "Auditorías trimestrales"
+        ]
+      }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Qué herramientas de BI usan?",
+        "answer": "Trabajamos con Power BI, Tableau, Looker y Google Data Studio según las necesidades del proyecto. Recomendamos la que mejor se adapte a tu stack tecnológico y presupuesto."
+      },
+      {
+        "question": "¿Necesito tener datos organizados?",
+        "answer": "No necesariamente. Parte de nuestro trabajo es auditar, limpiar y estructurar datos. Si están muy desordenados, puede sumar tiempo al proyecto inicial."
+      },
+      {
+        "question": "¿Cuánto tarda la implementación?",
+        "answer": "El primer dashboard funcional lo entregamos en 10-15 días. La arquitectura completa puede tomar 4-8 semanas dependiendo de la complejidad."
+      },
+      {
+        "question": "¿Cómo miden el ROI?",
+        "answer": "Establecemos KPIs claros desde el día 1. Medimos ahorro de tiempo, reducción de costos, incremento en conversión y mejora en toma de decisiones."
+      }
+    ]
+  },
+
+  "footer": {
+    "companyName": "DataFlow Analytics",
+    "year": 2026
+  },
+
+  "theme": {
+    "primaryColor": "#8b5cf6",
+    "secondaryColor": "#6d28d9"
+  },
+
+    "settings": {
+    "navbar": {
+        "enabled": true,
+        "transparent": true
+    },
+    "whatsappButton": {
+        "enabled": true,
+        "position": "bottom-right"
+    },
+    "stickyBar": {
+        "enabled": true,
+        "text": "📊 Auditoría GRATIS - Descubrí el potencial oculto en tus datos",
+        "showAfterScroll": 300
+    },
+    "layout": {
+        "featuresTestimonialsGrid": true
+    },
+    "sections": {
+        "hero": true,
+        "features": true,
+        "testimonials": true,
+        "pricing": true,
+        "faq": true,
+        "footer": true
+    }
+    }
+}

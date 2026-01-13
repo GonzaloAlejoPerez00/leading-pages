@@ -44,20 +44,43 @@ export default function ClientLandingPage({ config }: ClientLandingPageProps) {
         />
       )}
 
-      {/* Features Section - Condicional */}
-      {config.settings.sections.features && (
-        <FeaturesSection
-          config={config.features}
-          primaryColor={config.theme.primaryColor}
-        />
-      )}
+      {/* Grid o Stack según configuración */}
+      {config.settings.layout?.featuresTestimonialsGrid ? (
+        // LAYOUT GRID (para analytics)
+        <div className="grid grid-cols-1 lg:grid-cols-2 relative items-stretch">
+          <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-gray-200 to-transparent" />
+          
+          {config.settings.sections.features && (
+            <FeaturesSection
+              config={config.features}
+              primaryColor={config.theme.primaryColor}
+            />
+          )}
 
-      {/* Testimonials Section - Condicional */}
-      {config.settings.sections.testimonials && (
-        <TestimonialsSection
-          config={config.testimonials}
-          primaryColor={config.theme.primaryColor}
-        />
+          {config.settings.sections.testimonials && (
+            <TestimonialsSection
+              config={config.testimonials}
+              primaryColor={config.theme.primaryColor}
+            />
+          )}
+        </div>
+      ) : (
+        // LAYOUT NORMAL (para gym)
+        <>
+          {config.settings.sections.features && (
+            <FeaturesSection
+              config={config.features}
+              primaryColor={config.theme.primaryColor}
+            />
+          )}
+
+          {config.settings.sections.testimonials && (
+            <TestimonialsSection
+              config={config.testimonials}
+              primaryColor={config.theme.primaryColor}
+            />
+          )}
+        </>
       )}
 
       {/* Pricing Section - Condicional */}

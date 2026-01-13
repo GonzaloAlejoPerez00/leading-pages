@@ -28,20 +28,20 @@ export default function Navbar({ companyName, ctaText, onCtaClick, primaryColor 
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-white shadow-lg py-3' : 'bg-transparent py-5'
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
       <Container>
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between">
           
-          {/* Logo / Nombre */}
+          {/* Logo / Nombre - Más a la izquierda */}
           <div className="flex items-center">
             <h1 
-              className={`text-2xl font-bold transition-colors ${
-                isScrolled ? 'text-gray-900' : 'text-white'
+              className={`text-2xl md:text-3xl font-bold transition-colors ${
+                isScrolled ? 'text-gray-900' : 'text-white drop-shadow-lg'
               }`}
               style={isScrolled ? { color: primaryColor } : {}}
             >
@@ -49,12 +49,13 @@ export default function Navbar({ companyName, ctaText, onCtaClick, primaryColor 
             </h1>
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* CTA Button - Más a la derecha */}
+          <div>
             <Button
               onClick={onCtaClick}
               size="md"
               style={{ backgroundColor: primaryColor }}
+              className="font-bold shadow-lg hover:shadow-xl"
             >
               {ctaText}
             </Button>

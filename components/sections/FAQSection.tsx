@@ -20,7 +20,7 @@ export default function FAQSection({ config, primaryColor }: FAQSectionProps) {
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gray-50">
       <Container>
         
         {/* Título */}
@@ -31,7 +31,7 @@ export default function FAQSection({ config, primaryColor }: FAQSectionProps) {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             {config.title}
           </h2>
         </motion.div>
@@ -45,7 +45,7 @@ export default function FAQSection({ config, primaryColor }: FAQSectionProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="border border-gray-200 rounded-lg overflow-hidden"
+              className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               
               {/* Pregunta (botón) */}
@@ -53,15 +53,16 @@ export default function FAQSection({ config, primaryColor }: FAQSectionProps) {
                 onClick={() => toggleQuestion(index)}
                 className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors"
               >
-                <span className="font-semibold text-lg pr-8">
+                <span className="font-bold text-lg pr-8 text-gray-900">
                   {item.question}
                 </span>
                 <motion.div
                   animate={{ rotate: openIndex === index ? 180 : 0 }}
                   transition={{ duration: 0.3 }}
+                  className="shrink-0"
                   style={{ color: primaryColor }}
                 >
-                  <FaChevronDown />
+                  <FaChevronDown size={20} />
                 </motion.div>
               </button>
 
@@ -75,7 +76,7 @@ export default function FAQSection({ config, primaryColor }: FAQSectionProps) {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <div className="px-6 pb-6 text-gray-600">
+                    <div className="px-6 pb-6 pt-2 text-gray-800 text-base leading-relaxed border-t border-gray-100">
                       {item.answer}
                     </div>
                   </motion.div>
