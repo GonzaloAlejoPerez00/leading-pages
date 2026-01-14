@@ -10,6 +10,8 @@ import TestimonialsSection from '@/components/sections/TestimonialsSection'
 import PricingSection from '@/components/sections/PricingSection'
 import FAQSection from '@/components/sections/FAQSection'
 import FooterSection from '@/components/sections/FooterSection'
+import LocationSection from './sections/LocationSection'
+import StatsSection from './sections/StatsSection'
 
 interface ClientLandingPageProps {
   config: LandingPageConfig
@@ -96,6 +98,21 @@ export default function ClientLandingPage({ config }: ClientLandingPageProps) {
       {config.settings.sections.faq && (
         <FAQSection
           config={config.faq}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+
+      {/* Location Section - Condicional */}
+      {config.settings.sections.location && config.location && (
+        <LocationSection
+          config={config.location}
+          primaryColor={config.theme.primaryColor}
+        />
+      )}
+      {/* Stats Section - Condicional */}
+      {config.settings.sections.stats && config.stats && (
+        <StatsSection
+          config={config.stats}
           primaryColor={config.theme.primaryColor}
         />
       )}

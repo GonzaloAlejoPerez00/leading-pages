@@ -133,7 +133,30 @@
       }
     ]
   },
-
+    "location": {
+    "title": "Encontranos",
+    "subtitle": "Visitá nuestras sucursales equipadas con tecnología de última generación",
+    "branches": [
+      {
+        "name": "FitPro Centro",
+        "address": "Av. Corrientes 1234, CABA, Buenos Aires",
+        "phone": "+5491187654321",
+        "email": "centro@fitprogym.com",
+        "hours": "Lun a Vie: 6am - 11pm | Sáb y Dom: 8am - 8pm",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168522644834!2d-58.38165708477154!3d-34.60373698045828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf7e1b6d89%3A0x4f2d38e1a0b8a8c0!2sAv.%20Corrientes%201234%2C%20C1043%20CABA!5e0!3m2!1ses!2sar!4v1234567890",
+        "googleMapsLink": "https://maps.google.com/?q=Av.+Corrientes+1234,+CABA"
+      },
+      {
+        "name": "FitPro Palermo",
+        "address": "Av. Santa Fe 3456, Palermo, Buenos Aires",
+        "phone": "+5491187654322",
+        "email": "palermo@fitprogym.com",
+        "hours": "Lun a Vie: 6am - 11pm | Sáb y Dom: 8am - 8pm",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1234567890123!2d-58.41234567890123!3d-34.59012345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDM1JzI0LjQiUyA1OMKwMjQnNDQuNCJX!5e0!3m2!1ses!2sar!4v1234567890",
+        "googleMapsLink": "https://maps.google.com/?q=Av.+Santa+Fe+3456,+Palermo"
+      }
+    ]
+  },
   "footer": {
     "companyName": "FitPro Gym",
     "year": 2026
@@ -167,6 +190,7 @@
       "testimonials": true,
       "pricing": true,
       "faq": true,
+      "location": true,
       "footer": true
     }
   }

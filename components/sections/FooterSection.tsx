@@ -31,7 +31,7 @@ export default function FooterSection({ config, primaryColor }: FooterSectionPro
 
           {/* Créditos */}
           <p className="text-gray-500 text-xs mt-4">
-            Creado con 💙 por LandingPageKit
+            Creado por Gonzalo Pérez &amp; Landing Page Kit
           </p>
 
         </div>

@@ -137,7 +137,7 @@
       },
       {
         "name": "Enterprise Data",
-        "price": "Custom",
+        "price": "200.000",
         "currency": "$",
         "period": "",
         "features": [
@@ -173,6 +173,33 @@
       }
     ]
   },
+  "stats": {
+    "title": "Resultados que Hablan",
+    "subtitle": "Métricas reales de clientes que confiaron en nuestro análisis de datos",
+    "backgroundImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80",
+    "metrics": [
+      {
+        "value": "247%",
+        "label": "ROI Promedio",
+        "description": "Retorno de inversión en primer año"
+      },
+      {
+        "value": "3.2M",
+        "label": "Datos Procesados",
+        "description": "Registros analizados mensualmente"
+      },
+      {
+        "value": "94%",
+        "label": "Precisión",
+        "description": "En modelos predictivos"
+      },
+      {
+        "value": "48h",
+        "label": "Tiempo de Implementación",
+        "description": "Primer dashboard funcionando"
+      }
+    ]
+  },
 
   "footer": {
     "companyName": "DataFlow Analytics",
@@ -194,7 +221,7 @@
         "position": "bottom-right"
     },
     "stickyBar": {
-        "enabled": true,
+        "enabled": false,
         "text": "📊 Auditoría GRATIS - Descubrí el potencial oculto en tus datos",
         "showAfterScroll": 300
     },
@@ -207,6 +234,8 @@
         "testimonials": true,
         "pricing": true,
         "faq": true,
+        "stats": true,
+        "location": true,
         "footer": true
     }
     }

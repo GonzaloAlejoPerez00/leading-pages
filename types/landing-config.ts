@@ -94,6 +94,29 @@ export interface LandingPageConfig {
     buttonText: string
   }
 
+  location?: {
+  title: string
+  subtitle?: string
+  branches: Array<{
+    name: string
+    address: string
+    phone?: string
+    email?: string
+    hours?: string
+    mapUrl: string  
+    googleMapsLink: string  
+  }>
+  }
+  stats?: {
+  title: string
+  subtitle?: string
+  backgroundImage: string
+  metrics: Array<{
+    value: string
+    label: string
+    description?: string
+  }>
+}
   settings: {
     navbar: {
       enabled: boolean
@@ -117,6 +140,8 @@ export interface LandingPageConfig {
       testimonials: boolean
       pricing: boolean
       faq: boolean
+      stats: boolean
+      location: boolean
       footer: boolean
     }
   }
